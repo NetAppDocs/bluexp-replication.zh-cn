@@ -113,9 +113,7 @@
   <block id="4bf49185216f4e917fd8dcc50ee1ff2c" category="list-text">如果内部 ONTAP 集群是源，请使用直接连接或 VPN 连接确保内部网络与 AWS VPC 之间的连接。</block>
   <block id="58e046b3f4ec304e4456cda8151a574b" category="section-title">Replicate data between systems</block>
   <block id="ab180709f75f8b8d74709444b839ccd3" category="paragraph">您可以通过选择一次性数据复制（有助于将数据移入和移出云）或重复计划（有助于灾难恢复或长期保留）来复制数据。</block>
-  <block id="29e71d65fc647320e822efb6ec422c56" category="list-text">在 " 画布 " 页面上，选择包含源卷的工作环境，然后将其拖动到要将该卷复制到的工作环境。</block>
   <block id="f058b2239a935219edfc3818d7b5cb9e" category="inline-image-macro">屏幕抓图：显示一个工作环境位于另一个工作环境之上以启动数据复制过程。</block>
-  <block id="f0fb2fde0c29810d08233a36012cb972" category="paragraph"><block ref="f0fb2fde0c29810d08233a36012cb972" category="inline-image-macro-rx" type="image"></block></block>
   <block id="362a388c30edcb2f99cceb3fe86d98c1" category="list-text">* 源和目标对等设置 * ：如果显示此页面，请为集群对等关系选择所有集群间 LIF 。</block>
   <block id="bea31cd643e991ddda33528781bb08e5" category="paragraph">应配置集群间网络，使集群对等方具有 _ 成对的全网状连接 _ ，这意味着集群对等关系中的每个集群对都在其所有集群间 LIF 之间建立连接。</block>
   <block id="2de4794fb8257073e92d6ea494fd0157" category="paragraph">如果具有多个 LIF 的 ONTAP 集群是源或目标，则会显示这些页面。</block>
@@ -160,7 +158,6 @@
   <block id="dc699e704dec5502b9aa219f9381ad94" category="doc">复制文档</block>
   <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在向 NetApp 技术支持创建支持案例之前，您需要先将 NetApp 支持站点帐户添加到 Cloud Manager 中，然后注册获取支持。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
   <block id="7596270426e8c5f92be308ff330e0e64" category="sidebar">复制文档</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
@@ -239,4 +236,11 @@
   <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">单击 * 致电我们 * 可查找 NetApp 技术支持的电话号码。</block>
   <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">单击 * 打开问题描述 * ，选择一个选项，然后单击 * 发送 * 。</block>
   <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp 代表将审核您的案例，并尽快与您联系。</block>
+  <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
+  <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSX for ONTAP 作为数据源</block>
+  <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">现在、您可以将数据从适用于ONTAP 的Amazon FSX文件系统复制到以下目标：</block>
+  <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">内部 ONTAP 集群</block>
+  <block id="5aa1fbc4561178f17ae944c56ea9c22e" category="list-text">在Canvas上、选择包含源卷的工作环境、将其拖动到要将卷复制到的工作环境中、然后选择*复制*。</block>
+  <block id="467e7c8bbebd5d8880767fb4213184dc" category="paragraph"><block ref="467e7c8bbebd5d8880767fb4213184dc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2be8439d89ba35425f3565fe4d0cc2a1" category="paragraph">其余步骤举例说明如何在Cloud Volumes ONTAP 或内部ONTAP 集群之间创建同步关系。</block>
 </blocks>
