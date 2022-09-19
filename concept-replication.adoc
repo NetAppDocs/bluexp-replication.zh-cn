@@ -60,6 +60,7 @@ Cloud Manager 支持在以下类型的工作环境之间进行数据复制：
 
 | 适用于 ONTAP 的 Amazon FSX  a| 
 * 适用于 ONTAP 的 Amazon FSX
+* Cloud Volumes ONTAP
 * 内部 ONTAP 集群
 
 

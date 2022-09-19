@@ -56,7 +56,7 @@ https://docs.netapp.com/us-en/ontap/data-protection/compatible-ontap-versions-sn
 +
 --
 * 必须安装活动 SnapMirror 许可证。
-* 如果集群位于您的内部环境中，则您应从企业网络连接到 AWS ， Azure 或 GCP 中的虚拟网络。这通常是一个 VPN 连接。
+* 如果集群位于您的内部环境中、则您应从企业网络连接到AWS、Azure或Google Cloud中的虚拟网络。这通常是一个 VPN 连接。
 * ONTAP 集群必须满足其他子网、端口、防火墙和集群要求。
 +
 https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html["在 ONTAP 文档中查看集群对等的前提条件"^]
@@ -67,12 +67,8 @@ https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_f
 Amazon FSX for ONTAP 的特定要求::
 +
 --
-* 数据复制关系中的目标必须是适用于 ONTAP 的 Amazon FSX 工作环境。
-+
-源可以是 Cloud Volumes ONTAP 或内部 ONTAP 集群。
-
-* 如果 Cloud Volumes ONTAP 是源，请通过启用 VPC 对等或使用传输网关来确保 VPC 之间的连接。
-* 如果内部 ONTAP 集群是源，请使用直接连接或 VPN 连接确保内部网络与 AWS VPC 之间的连接。
+* 如果Cloud Volumes ONTAP 是此关系的一部分、请通过启用VPC对等或使用传输网关来确保VPC之间的连接。
+* 如果内部ONTAP 集群是此关系的一部分、请使用直接连接或VPN连接确保内部网络与AWS VPC之间的连接。
 
 
 --
