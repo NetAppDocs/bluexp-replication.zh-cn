@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-replication-policies.html 
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, disaster recovery, DR 
-summary: 您可以在 Cloud Manager 工作环境之间复制数据。您可以选择一次性数据复制将数据移入和移出云，也可以选择灾难恢复或长期保留的重复计划。 
+summary: 您可以在BlueXP工作环境之间复制数据。您可以选择一次性数据复制将数据移入和移出云，也可以选择灾难恢复或长期保留的重复计划。 
 ---
 = 了解复制策略
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 您可以在 Cloud Manager 工作环境之间复制数据。您可以�
 
 
 [role="lead"]
-在 Cloud Manager 中设置数据复制时，您可能需要有关选择复制策略的帮助。复制策略定义存储系统如何将数据从源卷复制到目标卷。
+在BlueXP中设置数据复制时、您可能需要有关选择复制策略的帮助。复制策略定义存储系统如何将数据从源卷复制到目标卷。
 
 
 

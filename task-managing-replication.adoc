@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-managing-replication.html 
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, source, destination, schedule, relationship, break, resync, max transfer, maximum transfer rate, rate, transfer rate, reverse resync, status, replication status, disaster recovery, DR, archive, archiving, retention 
-summary: 在两个系统之间设置数据复制后、您可以从 Cloud Manager 管理数据复制计划和关系。 
+summary: 在两个系统之间设置数据复制后、您可以从BlueXP管理数据复制计划和关系。 
 ---
 = 管理计划和关系
 :hardbreaks:
@@ -14,10 +14,10 @@ summary: 在两个系统之间设置数据复制后、您可以从 Cloud Manager
 
 
 [role="lead"]
-在两个系统之间设置数据复制后、您可以从 Cloud Manager 管理数据复制计划和关系。
+在两个系统之间设置数据复制后、您可以从BlueXP管理数据复制计划和关系。
 
 .步骤
-. 单击 * 复制 * 。
+. 从导航菜单中、选择*保护>复制*。
 . 检查数据复制关系的状态以验证它们是否正常。
 +
 
@@ -68,4 +68,4 @@ NOTE: 重新同步卷时、目标卷上的内容将被源卷上的内容覆盖�
 |===
 
 
-选择操作后、 Cloud Manager 将更新关系或计划。
+选择操作后、BlueXP将更新此关系或计划。

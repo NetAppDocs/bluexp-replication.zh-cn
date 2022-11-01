@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-replicating-data.html 
-keywords: ontap, cluster, discover, manage, cloud manager, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, schedule, relationship, max transfer, maximum transfer rate, rate, transfer rate, intercluster lif, replication requirement, requirements, disaster recovery, DR, archive, archiving, retention, amazon fsx for ontap, fsx for ontap 
-summary: 您可以在 Cloud Manager 工作环境之间复制数据。您可以选择一次性数据复制将数据移入和移出云，也可以选择灾难恢复或长期保留的重复计划。 
+keywords: ontap, cluster, discover, manage, BlueXP, hybrid cloud, replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, fanout, cascade, source, destination, schedule, relationship, max transfer, maximum transfer rate, rate, transfer rate, intercluster lif, replication requirement, requirements, disaster recovery, DR, archive, archiving, retention, amazon fsx for ontap, fsx for ontap 
+summary: 您可以通过选择一次性数据复制进行数据传输，或者选择灾难恢复或长期保留的重复计划，在 ONTAP 工作环境之间复制数据。例如，您可以设置从内部 ONTAP 系统到 Cloud Volumes ONTAP 的数据复制，以便进行灾难恢复。 
 ---
 = 设置数据复制
 :hardbreaks:
@@ -81,6 +81,7 @@ Amazon FSX for ONTAP 的特定要求::
 您可以通过选择一次性数据复制（有助于将数据移入和移出云）或重复计划（有助于灾难恢复或长期保留）来复制数据。
 
 .步骤
+. 从导航菜单中、选择*存储>画布*。
 . 在Canvas上、选择包含源卷的工作环境、将其拖动到要将卷复制到的工作环境中、然后选择*复制*。
 +
 image:screenshot-drag-and-drop.png["屏幕抓图：显示一个工作环境位于另一个工作环境之上以启动数据复制过程。"]
@@ -119,4 +120,4 @@ image:screenshot-drag-and-drop.png["屏幕抓图：显示一个工作环境位�
 . * 查看 * ：查看您选择的内容并单击 * 执行 * 。
 
 
-Cloud Manager 将启动数据复制过程。您可以在复制服务中查看有关卷关系的详细信息。
+BlueXP将启动数据复制过程。您可以在复制服务中查看有关卷关系的详细信息。
