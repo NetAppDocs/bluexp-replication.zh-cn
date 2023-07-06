@@ -86,3 +86,18 @@ BlueXP支持简单、扇出和级联数据保护配置：
 * 在扇出配置中、从卷 A 复制到多个目标。
 * 在级联配置中、从卷 A 复制到卷 B 、从卷 B 复制到卷 C
 
+
+
+
+== 使用BlueXP备份和恢复复制数据
+
+从BlueXP Connector 3.9.31版开始、您可以通过BlueXP备份和恢复功能使用SnapMirror和SnapVault技术在不同ONTAP系统上的卷之间复制数据。因此、如果您计划将数据复制到其他ONTAP系统、并且还希望为同一数据创建备份到对象存储、则可能需要使用 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["BlueXP备份和恢复"^] 这样、您只需一项服务即可管理数据保护需求。
+
+目前、以下功能仅在BlueXP复制服务中受支持-使用BlueXP备份和恢复的复制功能时不受支持。
+
+* 不支持级联配置、即先从卷A复制到卷B、然后再从卷B复制到卷C
+* 不支持将数据复制到FSx for ONTAP系统或从FSx for FSx复制数据。
+* 不支持创建卷的一次性复制。
+
+
+因此、如果您需要任何此功能、请使用BlueXP复制。
