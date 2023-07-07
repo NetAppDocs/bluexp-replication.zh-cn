@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: '了解BlueXP中的复制服务(以前称为Cloud Manager)的新增功能。' 
+summary: 了解BlueXP复制的新增功能。 
 ---
 = 新增功能
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: '了解BlueXP中的复制服务(以前称为Cloud Manager)的新增功�
 
 
 [role="lead"]
-了解BlueXP中的复制服务(以前称为Cloud Manager)的新增功能。
+了解BlueXP复制的新增功能。
 
 
 
@@ -64,6 +64,6 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["了
 
 === 界面经过重新设计
 
-我们重新设计了 " 复制 " 选项卡，以便于使用，并与 Cloud Manager 用户界面的当前外观相匹配。
+我们重新设计了复制服务、以便于使用、并与用户界面的当前外观相匹配。
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-replication/main/media/replication.gif["Cloud Manager 中重新设计的复制选项卡的屏幕截图，其中显示了卷关系列表。"]

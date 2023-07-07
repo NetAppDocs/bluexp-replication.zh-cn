@@ -27,7 +27,6 @@
   <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">现在，您可以将数据从 Cloud Volumes ONTAP 系统或内部 ONTAP 集群复制到适用于 ONTAP 的 Amazon FSX 文件系统。</block>
   <block id="5057fdb214d9f3773bc386ba2aa1fcb0" category="section-title">2021 年 5 月 5 日</block>
   <block id="1473f0729c8bea54a5077a19ab764c47" category="section-title">界面经过重新设计</block>
-  <block id="5a0a1bceb9fa4494f5bd231c6eb87a5b" category="paragraph">我们重新设计了 " 复制 " 选项卡，以便于使用，并与 Cloud Manager 用户界面的当前外观相匹配。</block>
   <block id="0f9405518138d20fd96d78fe19dabf84" category="inline-image-macro">Cloud Manager 中重新设计的复制选项卡的屏幕截图，其中显示了卷关系列表。</block>
   <block id="2e4ca84ff13f65389599985c5d2a9f08" category="doc">管理计划和关系</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
@@ -79,7 +78,6 @@
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link">创建适用于 ONTAP 的 Amazon FSX 工作环境</block>
   <block id="a3272fd5c4bd1903de9b1b2f5e1665a8" category="inline-link">在 AWS 中监控 Cloud Volumes ONTAP</block>
   <block id="70c84621a7336f391b4b7df86b5f1396" category="inline-link">在 Azure 中启动 Cloud Volumes ONTAP</block>
-  <block id="ce3503849689227dd8014f8ed3f5cb5e" category="inline-link">在 GCP 中启动 Cloud Volumes ONTAP</block>
   <block id="6c0fb6078ec778ca2319e375a19e994b" category="inline-link">添加现有 Cloud Volumes ONTAP 系统</block>
   <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="inline-link">发现 ONTAP 集群</block>
   <block id="3fbe74eae84714fcfdd21edafe54f77f" category="list-text">版本要求</block>
@@ -112,13 +110,11 @@
   <block id="eab21f14d3f6250b2de779be87b8404e" category="paragraph">有多个默认计划可用。如果您需要其他计划，则必须使用 System Manager 在 _destination_cluster 上创建一个新计划。</block>
   <block id="b651c9a4bed137033ce440a73927ffcf" category="list-text">* 查看 * ：查看您选择的内容并单击 * 执行 * 。</block>
   <block id="aeeec0576922eb4490b5fabadc6c4e36" category="summary">NetApp SnapMirror 可通过 LAN 或 WAN 高速复制数据，从而在虚拟和传统环境中实现高数据可用性和快速数据复制。在将数据复制到 NetApp 存储系统并持续更新二级数据时，您的数据将保持最新，并在需要时保持可用。不需要外部复制服务器。</block>
-  <block id="e60519215887d589e148f68a2f5d2a06" category="doc">了解复制服务</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
   <block id="4d8208136280cbaba3cab05e5996a3a8" category="list-text">在 ONTAP 存储系统之间复制数据，以支持将数据备份和灾难恢复到云或云之间。</block>
   <block id="58598c037819ab3e58b8ee6d0d634246" category="list-text">确保灾难恢复环境的可靠性和高可用性。</block>
   <block id="6c12db213eb53a8ef7d470254e0395be" category="list-text">ONTAP 存储之间的高效块级复制速度快，效率高，灾难恢复和备份都有精细的恢复点。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
-  <block id="51d8157d48cfe9c64b3f0f386d2e4e7b" category="paragraph">NetApp 不会因使用复制服务而向您收取费用，但您需要向云提供商咨询适用的数据传入和传出费用。</block>
   <block id="744db3ac634a7aa94269971ca3dc965e" category="section-title">支持的工作环境</block>
   <block id="9fd9b4e1af5d0e8b46abbd52a5c740cd" category="cell">源工作环境</block>
   <block id="e4543e565352b9e4f4e71c2f648026f6" category="cell">支持的目标工作环境</block>
@@ -131,9 +127,7 @@
   <block id="c1400343880c81f40f5a3faf804c86ae" category="list-text">在简单的配置中、从卷 A 复制到卷 B</block>
   <block id="efec681cbb459f433d2291a71e215461" category="list-text">在扇出配置中、从卷 A 复制到多个目标。</block>
   <block id="7a850141034065e0218996db71a2ef0c" category="list-text">在级联配置中、从卷 A 复制到卷 B 、从卷 B 复制到卷 C</block>
-  <block id="dc699e704dec5502b9aa219f9381ad94" category="doc">复制文档</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
-  <block id="7596270426e8c5f92be308ff330e0e64" category="sidebar">复制文档</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="c27a58445f6be9881526a37e46bb7d26" category="sidebar">管理数据复制</block>
@@ -141,7 +135,6 @@
   <block id="fa26829830efe73376071e3b30f66d6a" category="sidebar">复制策略</block>
   <block id="9f02509e5496e861df4c341dba05386e" category="sidebar">备份策略</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
-  <block id="96dbe21e840f318daaf871cafa9f1d1f" category="sidebar">使用复制服务</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客社区</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
@@ -209,7 +202,6 @@
   <block id="0b2859515841917b8dcb93767366e15a" category="list-text">如果Cloud Volumes ONTAP 是此关系的一部分、请通过启用VPC对等或使用传输网关来确保VPC之间的连接。</block>
   <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">如果内部ONTAP 集群是此关系的一部分、请使用直接连接或VPN连接确保内部网络与AWS VPC之间的连接。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">从导航菜单中、选择*存储&gt;画布*。</block>
-  <block id="b5346aabfb07747172bac9a45326a463" category="paragraph">BlueXP将启动数据复制过程。您可以在复制服务中查看有关卷关系的详细信息。</block>
   <block id="30f8f8912c844cee545e88597d12bbab" category="summary">在两个系统之间设置数据复制后、您可以从BlueXP管理数据复制计划和关系。</block>
   <block id="3b5a034beecbb1a2d60171dfe195f2df" category="list-text">从导航菜单中、选择*保护&gt;复制*。</block>
   <block id="b49c40e645fcbad07d8747fe60951eee" category="paragraph">选择操作后、BlueXP将更新此关系或计划。</block>
@@ -255,11 +247,7 @@
   <block id="09376463a89b70a46174403a8dd9b195" category="paragraph">BlueXP使用SnapMirror和SnapVault 技术简化了不同ONTAP 系统上卷之间的数据复制。您只需标识源卷和目标卷、然后选择复制策略和计划即可。</block>
   <block id="632626c0e49d0ec90a3c09ab71cb38fc" category="paragraph">对于Cloud Volumes ONTAP 、BlueXP会购买所需的磁盘、配置关系、应用复制策略、然后在卷之间启动基线传输。</block>
   <block id="778daec04c7f2f3e16024569d1955540" category="paragraph">BlueXP支持简单、扇出和级联数据保护配置：</block>
-  <block id="c5a8374ee9fb158f61739b8d5bd880ef" category="summary">您可以在BlueXP工作环境之间复制数据。您可以选择一次性数据复制将数据移入和移出云，也可以选择灾难恢复或长期保留的重复计划。</block>
   <block id="3efdcfead8281aadde8513c58855434b" category="paragraph">在BlueXP中设置数据复制时、您可能需要有关选择复制策略的帮助。复制策略定义存储系统如何将数据从源卷复制到目标卷。</block>
-  <block id="eb26b2f0ab3f4144da7840791e9e9cf0" category="summary">了解BlueXP中的复制服务(以前称为Cloud Manager)的新增功能。</block>
-  <block id="bcb152582247346e2f453fce02c1fc3c" category="inline-link-macro">有关BlueXP 3.9的通知</block>
-  <block id="03f975e839e4278228720a5d19656288" category="paragraph"><block ref="03f975e839e4278228720a5d19656288" category="inline-link-macro-rx"></block></block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
@@ -320,7 +308,6 @@
   <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
   <block id="58daf0847a76a7b1620f3558f8c5aaa6" category="list-text"><block ref="58daf0847a76a7b1620f3558f8c5aaa6" category="inline-link-rx"></block></block>
   <block id="ae344581f45a6d4593a2788f5e30015e" category="list-text"><block ref="ae344581f45a6d4593a2788f5e30015e" category="inline-link-rx"></block></block>
-  <block id="33f4a6dc8fe8627d8c8d45e16d3010a3" category="list-text"><block ref="33f4a6dc8fe8627d8c8d45e16d3010a3" category="inline-link-rx"></block></block>
   <block id="8fdf2adbca771b61e226157cc48ae918" category="list-text"><block ref="8fdf2adbca771b61e226157cc48ae918" category="inline-link-rx"></block></block>
   <block id="c42ed38279c50e4c5755f93ea09a9661" category="list-text"><block ref="c42ed38279c50e4c5755f93ea09a9661" category="inline-link-rx"></block></block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>。</block>
@@ -369,4 +356,16 @@
   <block id="baf48e0aa2c3928a76f5ae4cfa863af0" category="list-text">不支持将数据复制到FSx for ONTAP系统或从FSx for FSx复制数据。</block>
   <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">不支持创建卷的一次性复制。</block>
   <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">因此、如果您需要任何此功能、请使用BlueXP复制。</block>
+  <block id="62390de09bd56fbb6d4533a188f4f201" category="doc">BlueXP复制文档</block>
+  <block id="5195e4b472b1871018c47fface61dc40" category="inline-link">在Google Cloud中启动Cloud Volumes ONTAP</block>
+  <block id="626952d60302f9977a04f592cec299fb" category="list-text"><block ref="626952d60302f9977a04f592cec299fb" category="inline-link-rx"></block></block>
+  <block id="a7215108d548ffe7763ce1f9198d8994" category="paragraph">BlueXP将启动数据复制过程。您可以从BlueXP复制服务查看有关卷关系的详细信息。</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="70f977daf295113b60f6c4b035cb3f02" category="doc">了解BlueXP复制</block>
+  <block id="74ddb38c3b9b1f58e8ec0c893e2acc2c" category="paragraph">NetApp不会因使用BlueXP复制而向您收费、但您需要检查云提供商以了解适用的数据传入和传出费用。</block>
+  <block id="51ec975d41f1829ab090b8f898af8aa9" category="summary">了解BlueXP复制的新增功能。</block>
+  <block id="50839a9360a2ad4070bd1ba04d7e502a" category="paragraph">我们重新设计了复制服务、以便于使用、并与用户界面的当前外观相匹配。</block>
+  <block id="d87a7b7b52c9dad26684c49099c92944" category="sidebar">BlueXP复制文档</block>
+  <block id="e7c71db0ba7d050d4d85bc8cab04fc33" category="sidebar">使用BlueXP复制</block>
 </blocks>
