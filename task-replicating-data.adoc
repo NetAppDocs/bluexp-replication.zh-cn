@@ -106,7 +106,7 @@ image:screenshot-drag-and-drop.png["屏幕抓图：显示一个工作环境位�
 +
 您应限制传输速率。无限速率可能会对其他应用程序的性能产生负面影响，并可能影响您的 Internet 性能。
 
-. * 复制策略 * ：选择一个默认策略或单击 * 其他策略 * ，然后选择一个高级策略。
+. *复制策略*：选择默认策略或选择*其他策略*，然后选择一个高级策略。
 +
 如需帮助， link:concept-replication-policies.html["了解复制策略"]。
 
@@ -117,7 +117,7 @@ image:screenshot-drag-and-drop.png["屏幕抓图：显示一个工作环境位�
 +
 有多个默认计划可用。如果您需要其他计划，则必须使用 System Manager 在 _destination_cluster 上创建一个新计划。
 
-. * 查看 * ：查看您选择的内容并单击 * 执行 * 。
+. *Review *：查看您的选择并选择*Go *。
 
 
 .结果
