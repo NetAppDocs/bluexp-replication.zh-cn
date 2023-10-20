@@ -28,7 +28,6 @@
   <block id="5057fdb214d9f3773bc386ba2aa1fcb0" category="section-title">2021 年 5 月 5 日</block>
   <block id="1473f0729c8bea54a5077a19ab764c47" category="section-title">界面经过重新设计</block>
   <block id="0f9405518138d20fd96d78fe19dabf84" category="inline-image-macro">Cloud Manager 中重新设计的复制选项卡的屏幕截图，其中显示了卷关系列表。</block>
-  <block id="2e4ca84ff13f65389599985c5d2a9f08" category="doc">管理计划和关系</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
   <block id="775f5846d28de12857c9c89ae5d4a6e1" category="list-text">检查数据复制关系的状态以验证它们是否正常。</block>
   <block id="384cf3526eba01b7701f7fde08ba751e" category="admonition">如果关系的状态为空闲且镜像状态未初始化，则必须初始化目标系统的关系，以便根据定义的计划进行数据复制。您可以使用系统管理器或命令行界面（ CLI ）初始化关系。当目标系统发生故障后又重新联机时，可能会显示这些状态。</block>
@@ -70,7 +69,6 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
   <block id="aa03d16eacb954c7af08d5001cd67507" category="doc">设置数据复制</block>
   <block id="745cc81e54713a1702ada65f4b222bce" category="paragraph">您可以通过选择一次性数据复制进行数据传输，或者选择灾难恢复或长期保留的重复计划，在 ONTAP 工作环境之间复制数据。例如，您可以设置从内部 ONTAP 系统到 Cloud Volumes ONTAP 的数据复制，以便进行灾难恢复。</block>
-  <block id="992753e7f234853a9e0f96d1ff637271" category="section-title">数据复制要求</block>
   <block id="3f5c98f2da3fd65fbbfa955b13a433ab" category="paragraph">在复制数据之前，您应确认满足 Cloud Volumes ONTAP ，内部 ONTAP 集群或适用于 ONTAP 的 Amazon FSx 的特定要求。</block>
   <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="list-text">工作环境</block>
   <block id="4afa74830ae584f2b792dfe5b6c79ccc" category="list-text">如果您尚未创建，则需要在数据复制关系中为源和目标创建工作环境。</block>
@@ -89,7 +87,6 @@
   <block id="8c4a805dde66a7461e7760fe982d066f" category="list-text">必须安装活动 SnapMirror 许可证。</block>
   <block id="1fbce003d68708feb24931b9e6366f50" category="list-text">ONTAP 集群必须满足其他子网、端口、防火墙和集群要求。</block>
   <block id="4f473a2a941d4fd7b4a68e3cd98e934c" category="list-text">Amazon FSX for ONTAP 的特定要求</block>
-  <block id="58e046b3f4ec304e4456cda8151a574b" category="section-title">Replicate data between systems</block>
   <block id="ab180709f75f8b8d74709444b839ccd3" category="paragraph">您可以通过选择一次性数据复制（有助于将数据移入和移出云）或重复计划（有助于灾难恢复或长期保留）来复制数据。</block>
   <block id="f058b2239a935219edfc3818d7b5cb9e" category="inline-image-macro">屏幕抓图：显示一个工作环境位于另一个工作环境之上以启动数据复制过程。</block>
   <block id="362a388c30edcb2f99cceb3fe86d98c1" category="list-text">* 源和目标对等设置 * ：如果显示此页面，请为集群对等关系选择所有集群间 LIF 。</block>
@@ -128,9 +125,6 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="c27a58445f6be9881526a37e46bb7d26" category="sidebar">管理数据复制</block>
-  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
-  <block id="fa26829830efe73376071e3b30f66d6a" category="sidebar">复制策略</block>
-  <block id="9f02509e5496e861df4c341dba05386e" category="sidebar">备份策略</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客社区</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
@@ -373,4 +367,9 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">获得云提供商文件服务支持</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有关与云提供商文件服务、其基础架构或使用该服务的任何解决方案相关的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
+  <block id="46ebfd1e0393caa0f34b574489afb56f" category="section-title">第1步：查看数据复制要求</block>
+  <block id="94d63941f5733e2475f76dcc24cbaab4" category="section-title">第2步：在系统之间复制数据</block>
+  <block id="30926cdd94e56dd228449e15c0e4474c" category="doc">了解备份策略</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="sidebar">了解更多信息。</block>
 </blocks>

@@ -4,7 +4,7 @@ permalink: concept-backup-policies.html
 keywords: snapvault, archive, archiving, retention 
 summary: 与镜像策略不同，备份 SnapVault 策略会将特定的 Snapshot 副本复制到目标卷。如果要使用自己的策略而不是默认策略、了解备份策略的工作原理非常重要。 
 ---
-= 了解复制策略
+= 了解备份策略
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

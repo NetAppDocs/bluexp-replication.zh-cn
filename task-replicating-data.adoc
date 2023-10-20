@@ -18,7 +18,7 @@ summary: 您可以通过选择一次性数据复制进行数据传输，或者�
 
 
 
-== 数据复制要求
+== 第1步：查看数据复制要求
 
 在复制数据之前，您应确认满足 Cloud Volumes ONTAP ，内部 ONTAP 集群或适用于 ONTAP 的 Amazon FSx 的特定要求。
 
@@ -76,7 +76,7 @@ Amazon FSX for ONTAP 的特定要求::
 
 
 
-== Replicate data between systems
+== 第2步：在系统之间复制数据
 
 您可以通过选择一次性数据复制（有助于将数据移入和移出云）或重复计划（有助于灾难恢复或长期保留）来复制数据。
 
