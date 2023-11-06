@@ -26,9 +26,7 @@ summary: 您可以通过选择一次性数据复制进行数据传输，或者�
 +
 --
 * https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/task-getting-started-fsx.html["创建适用于 ONTAP 的 Amazon FSX 工作环境"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中监控 Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中启动 Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在Google Cloud中启动Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-overview-cvo.html["创建Cloud Volumes ONTAP工作环境"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html["添加现有 Cloud Volumes ONTAP 系统"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["发现 ONTAP 集群"^]
 
@@ -56,7 +54,7 @@ https://docs.netapp.com/us-en/ontap/data-protection/compatible-ontap-versions-sn
 +
 --
 * 必须安装活动 SnapMirror 许可证。
-* 如果集群位于您的内部环境中、则您应从企业网络连接到AWS、Azure或Google Cloud中的虚拟网络。这通常是一个 VPN 连接。
+* 如果集群位于您的内部环境中、则您应在企业网络与云中的虚拟网络之间建立连接。这通常是一个 VPN 连接。
 * ONTAP 集群必须满足其他子网、端口、防火墙和集群要求。
 +
 https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html["在 ONTAP 文档中查看集群对等的前提条件"^]
