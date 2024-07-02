@@ -137,7 +137,6 @@
   <block id="49a1e754247eba0034ec2a2b3dea46b0" category="inline-link">查看 SnapMirror 关系的兼容 ONTAP 版本</block>
   <block id="b8c6e83fa255fcfab352a5b54339fdb8" category="paragraph"><block ref="b8c6e83fa255fcfab352a5b54339fdb8" category="inline-link-rx"></block></block>
   <block id="d7bb556723e915c43fe4fd9b0f90d545" category="inline-link">在 ONTAP 文档中查看集群对等的前提条件</block>
-  <block id="54aa7fca826fcb0f6caefb80a82fe037" category="paragraph"><block ref="54aa7fca826fcb0f6caefb80a82fe037" category="inline-link-rx"></block></block>
   <block id="d0c8bcc8105dd12af5250cd475e35814" category="paragraph">如果选择自定义备份（ SnapVault ）策略、与策略关联的标签必须与源卷上 Snapshot 副本的标签匹配。有关详细信息 ... <block ref="1da422ecee672d98d1632cce950d0eeb" category="inline-link-macro-rx"></block>。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
@@ -366,4 +365,5 @@
   <block id="dbfdbb36eb5065fce9a76d7ae82068ab" category="list-text"><block ref="dbfdbb36eb5065fce9a76d7ae82068ab" category="inline-link-rx"></block></block>
   <block id="cb4d7a152cb523ddb41e8b55186ecaf9" category="list-text">如果集群位于您的内部环境中、则您应在企业网络与云中的虚拟网络之间建立连接。这通常是一个 VPN 连接。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用Microsoft Entra ID作为特定于支持和许可的身份验证服务的身份提供程序。</block>
+  <block id="97d76d6ad65338f9dc1e8196be488382" category="paragraph"><block ref="97d76d6ad65338f9dc1e8196be488382" category="inline-link-rx"></block></block>
 </blocks>
