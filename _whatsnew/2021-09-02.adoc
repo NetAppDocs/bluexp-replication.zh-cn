@@ -1,0 +1,11 @@
+= 支持适用于 ONTAP 的 Amazon FSX
+:allow-uri-read: 
+
+
+
+
+=== 支持适用于 ONTAP 的 Amazon FSX
+
+现在，您可以将数据从 Cloud Volumes ONTAP 系统或内部 ONTAP 集群复制到适用于 ONTAP 的 Amazon FSX 文件系统。
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["了解如何设置数据复制"]。

@@ -1,0 +1,11 @@
+= 适用于ONTAP 到Cloud Volumes ONTAP 的FSX
+:allow-uri-read: 
+
+
+
+
+=== 适用于ONTAP 到Cloud Volumes ONTAP 的FSX
+
+现在、您可以将适用于ONTAP 的Amazon FSx文件系统中的数据复制到Cloud Volumes ONTAP。
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["了解如何设置数据复制"]。

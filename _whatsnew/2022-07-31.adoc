@@ -1,0 +1,15 @@
+= FSX for ONTAP 作为数据源
+:allow-uri-read: 
+
+
+
+
+=== FSX for ONTAP 作为数据源
+
+现在、您可以将数据从适用于ONTAP 的Amazon FSX文件系统复制到以下目标：
+
+* 适用于 ONTAP 的 Amazon FSX
+* 内部 ONTAP 集群
+
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["了解如何设置数据复制"]。
