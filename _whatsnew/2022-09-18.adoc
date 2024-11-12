@@ -1,5 +1,7 @@
 = 适用于ONTAP 到Cloud Volumes ONTAP 的FSX
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
